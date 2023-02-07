@@ -8,22 +8,22 @@ const Stack = createNativeStackNavigator();
 const RootNavigator = () => {
   return (
     <Stack.Navigator>
-       <Stack.Screen
-       name='WelcomeScreen'
-       component={WelcomeScreen}
-       options={{
+      <Stack.Screen
+      name='WelcomeScreen'
+      component={WelcomeScreen}
+      options={{
         headerTitle: 'Welcome',
         headerTitleAlign: 'center'
-       }}
-       />
-       <Stack.Screen
-       name='SubscribeScreen'
-       component={SubscribeScreen}
-       options={{
+      }}
+      />
+      <Stack.Screen
+      name='SubscribeScreen'
+      component={SubscribeScreen}
+      options={{
         headeTitle: 'Subscribe',
         headeTitleAlign: 'center'
-       }}
-       />
+      }}
+      />
     </Stack.Navigator>
   );
 };
